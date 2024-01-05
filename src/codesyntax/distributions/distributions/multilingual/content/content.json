@@ -1,0 +1,621 @@
+[{
+    "@id": "/es",
+    "@type": "LRF",
+    "UID": "99501cda33e147279d26252e1e5a3331",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:08:09+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": null,
+    "exclude_from_nav": true,
+    "expires": null,
+    "id": "es",
+    "is_folderish": true,
+    "language": "es",
+    "layout": "folder_listing",
+    "lock": {},
+    "modified": "2024-01-05T13:18:56+00:00",
+    "parent": {
+        "@id": "/",
+        "@type": "Plone Site",
+        "UID": "c9dad0ab77f947d0b30abfe240c4de3f",
+        "description": "A Plone Site",
+        "title": "Site",
+        "type_title": "Sitio Plone"
+    },
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "title": "Espa\u00f1ol",
+    "type_title": "Carpeta Ra\u00edz de Idioma",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:08:09+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:08:09+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/es/noticias",
+    "@type": "Folder",
+    "UID": "85f208c2198c444d91fe21885e11c358",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:18:56+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": "2024-01-05T14:20:04",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "noticias",
+    "is_folderish": true,
+    "language": "es",
+    "layout": "listing_view",
+    "lock": {},
+    "modified": "2024-01-05T13:20:04+00:00",
+    "nextPreviousEnabled": false,
+    "parent": {
+        "@id": "/es",
+        "@type": "LRF",
+        "UID": "99501cda33e147279d26252e1e5a3331",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Espa\u00f1ol",
+        "type_title": "Carpeta Ra\u00edz de Idioma"
+    },
+    "review_state": "published",
+    "rights": null,
+    "subjects": [],
+    "title": "Noticias",
+    "type_title": "Carpeta",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:18:56+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:20:04+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/es/noticias/aggregator",
+    "@type": "Collection",
+    "UID": "4fabd8449b254caaaa786827c49fa852",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:19:15+00:00",
+    "creators": [
+        "admin"
+    ],
+    "customViewFields": [
+        "Title",
+        "Creator",
+        "Type",
+        "ModificationDate"
+    ],
+    "description": "",
+    "effective": "2024-01-05T14:20:04",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "aggregator",
+    "is_folderish": false,
+    "item_count": 30,
+    "items_total": 0,
+    "language": "es",
+    "layout": "listing_view",
+    "limit": 1000,
+    "lock": {
+        "locked": false,
+        "stealable": true
+    },
+    "modified": "2024-01-05T13:20:04+00:00",
+    "parent": {
+        "@id": "/es/noticias",
+        "@type": "Folder",
+        "UID": "85f208c2198c444d91fe21885e11c358",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Noticias",
+        "type_title": "Carpeta"
+    },
+    "query": [
+        {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+                "News Item"
+            ]
+        }
+    ],
+    "review_state": "published",
+    "rights": null,
+    "sort_on": "effective",
+    "sort_reversed": true,
+    "subjects": [],
+    "text": null,
+    "title": "Noticias",
+    "type_title": "Colecci\u00f3n",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:19:15+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:20:04+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/es/politica-de-cookies",
+    "@type": "Document",
+    "UID": "611391ddab814cb1b0c7aeaa23f635fb",
+    "allow_discussion": false,
+    "changeNote": "",
+    "contributors": [],
+    "created": "2024-01-05T13:18:18+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": null,
+    "exclude_from_nav": true,
+    "expires": null,
+    "id": "politica-de-cookies",
+    "is_folderish": true,
+    "language": "es",
+    "layout": "document_view",
+    "lock": {
+        "locked": false,
+        "stealable": true
+    },
+    "modified": "2024-01-05T13:18:39+00:00",
+    "parent": {
+        "@id": "/es",
+        "@type": "LRF",
+        "UID": "99501cda33e147279d26252e1e5a3331",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Espa\u00f1ol",
+        "type_title": "Carpeta Ra\u00edz de Idioma"
+    },
+    "review_state": "private",
+    "rights": null,
+    "seo_description": null,
+    "seo_robots": null,
+    "seo_title": null,
+    "subjects": [],
+    "table_of_contents": false,
+    "text": null,
+    "title": "Pol\u00edtica de Cookies",
+    "type_title": "P\u00e1gina",
+    "version": "current",
+    "versioning_enabled": true,
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:18:18+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/es/politica-de-privacidad",
+    "@type": "Document",
+    "UID": "a05245fe76824c24bcc3fce2e74defbf",
+    "allow_discussion": false,
+    "changeNote": "",
+    "contributors": [],
+    "created": "2024-01-05T13:18:13+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": null,
+    "exclude_from_nav": true,
+    "expires": null,
+    "id": "politica-de-privacidad",
+    "is_folderish": true,
+    "language": "es",
+    "layout": "document_view",
+    "lock": {
+        "locked": false,
+        "stealable": true
+    },
+    "modified": "2024-01-05T13:18:33+00:00",
+    "parent": {
+        "@id": "/es",
+        "@type": "LRF",
+        "UID": "99501cda33e147279d26252e1e5a3331",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Espa\u00f1ol",
+        "type_title": "Carpeta Ra\u00edz de Idioma"
+    },
+    "review_state": "private",
+    "rights": null,
+    "seo_description": null,
+    "seo_robots": null,
+    "seo_title": null,
+    "subjects": [],
+    "table_of_contents": false,
+    "text": null,
+    "title": "Pol\u00edtica de Privacidad",
+    "type_title": "P\u00e1gina",
+    "version": "current",
+    "versioning_enabled": true,
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:18:13+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/es/recursos",
+    "@type": "LIF",
+    "UID": "241e86c9cc1e410d8bce2870101a3ede",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:08:09+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": null,
+    "exclude_from_nav": true,
+    "expires": null,
+    "id": "recursos",
+    "is_folderish": true,
+    "language": "es",
+    "layout": "folder_listing",
+    "lock": {},
+    "modified": "2024-01-05T13:08:10+00:00",
+    "parent": {
+        "@id": "/es",
+        "@type": "LRF",
+        "UID": "99501cda33e147279d26252e1e5a3331",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Espa\u00f1ol",
+        "type_title": "Carpeta Ra\u00edz de Idioma"
+    },
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "title": "Recursos",
+    "type_title": "Carpeta Independiente de Idioma",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:08:09+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:08:09+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/eu",
+    "@type": "LRF",
+    "UID": "e8653e52db504aa2ac9db76698743393",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:08:10+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": null,
+    "exclude_from_nav": true,
+    "expires": null,
+    "id": "eu",
+    "is_folderish": true,
+    "language": "eu",
+    "layout": "folder_listing",
+    "lock": {},
+    "modified": "2024-01-05T13:22:15+00:00",
+    "parent": {
+        "@id": "/",
+        "@type": "Plone Site",
+        "UID": "c9dad0ab77f947d0b30abfe240c4de3f",
+        "description": "A Plone Site",
+        "title": "Site",
+        "type_title": "Sitio Plone"
+    },
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "title": "Euskara",
+    "type_title": "Carpeta Ra\u00edz de Idioma",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:08:10+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:08:10+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/eu/albisteak",
+    "@type": "Folder",
+    "UID": "b0f31f1c29d64247b1a534dae251399e",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:22:15+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": "2024-01-05T14:22:55",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "albisteak",
+    "is_folderish": true,
+    "language": "eu",
+    "layout": "listing_view",
+    "lock": {},
+    "modified": "2024-01-05T13:22:55+00:00",
+    "nextPreviousEnabled": false,
+    "parent": {
+        "@id": "/eu",
+        "@type": "LRF",
+        "UID": "e8653e52db504aa2ac9db76698743393",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Euskara",
+        "type_title": "Carpeta Ra\u00edz de Idioma"
+    },
+    "review_state": "published",
+    "rights": null,
+    "subjects": [],
+    "title": "Albisteak",
+    "type_title": "Carpeta",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:22:15+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:22:55+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/eu/albisteak/aggregator",
+    "@type": "Collection",
+    "UID": "32a723ac3b0744c28410fadf37f76130",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:22:42+00:00",
+    "creators": [
+        "admin"
+    ],
+    "customViewFields": [
+        "Title",
+        "Creator",
+        "Type",
+        "ModificationDate"
+    ],
+    "description": "",
+    "effective": "2024-01-05T14:22:00",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "aggregator",
+    "is_folderish": false,
+    "item_count": 30,
+    "items_total": 0,
+    "language": "eu",
+    "layout": "listing_view",
+    "limit": 1000,
+    "lock": {
+        "locked": false,
+        "stealable": true
+    },
+    "modified": "2024-01-05T13:22:50+00:00",
+    "parent": {
+        "@id": "/eu/albisteak",
+        "@type": "Folder",
+        "UID": "b0f31f1c29d64247b1a534dae251399e",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Albisteak",
+        "type_title": "Carpeta"
+    },
+    "query": [
+        {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+                "News Item"
+            ]
+        }
+    ],
+    "review_state": "published",
+    "rights": null,
+    "sort_on": "effective",
+    "sort_reversed": true,
+    "subjects": [],
+    "text": null,
+    "title": "Albisteak",
+    "type_title": "Colecci\u00f3n",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:22:42+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:22:44+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+},{
+    "@id": "/eu/media",
+    "@type": "LIF",
+    "UID": "2aa3327bb1184597ba9be812fbf8496c",
+    "allow_discussion": false,
+    "contributors": [],
+    "created": "2024-01-05T13:08:10+00:00",
+    "creators": [
+        "admin"
+    ],
+    "description": "",
+    "effective": null,
+    "exclude_from_nav": true,
+    "expires": null,
+    "id": "media",
+    "is_folderish": true,
+    "language": "eu",
+    "layout": "folder_listing",
+    "lock": {},
+    "modified": "2024-01-05T13:08:10+00:00",
+    "parent": {
+        "@id": "/eu",
+        "@type": "LRF",
+        "UID": "e8653e52db504aa2ac9db76698743393",
+        "description": "",
+        "image_field": null,
+        "image_scales": null,
+        "review_state": "published",
+        "title": "Euskara",
+        "type_title": "Carpeta Ra\u00edz de Idioma"
+    },
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "title": "Media",
+    "type_title": "Carpeta Independiente de Idioma",
+    "version": "current",
+    "workflow_history": {
+        "simple_publication_workflow": [
+            {
+                "action": null,
+                "actor": "admin",
+                "comments": "",
+                "review_state": "private",
+                "time": "2024-01-05T13:08:10+00:00"
+            },
+            {
+                "action": "publish",
+                "actor": "admin",
+                "comments": "",
+                "review_state": "published",
+                "time": "2024-01-05T13:08:10+00:00"
+            }
+        ]
+    },
+    "working_copy": null,
+    "working_copy_of": null
+}]

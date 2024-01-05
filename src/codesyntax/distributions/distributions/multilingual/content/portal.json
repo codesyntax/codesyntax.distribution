@@ -1,0 +1,30 @@
+[{
+    "@id": "/Plone1",
+    "@type": "Plone Site",
+    "UID": "c9dad0ab77f947d0b30abfe240c4de3f",
+    "allow_discussion": null,
+    "contributors": [],
+    "creators": [
+        "admin"
+    ],
+    "description": "A Plone Site",
+    "effective": null,
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "Plone1",
+    "is_folderish": true,
+    "items_total": 2,
+    "language": "eu",
+    "lock": {
+        "locked": false,
+        "stealable": true
+    },
+    "parent": {},
+    "review_state": null,
+    "rights": "",
+    "subjects": [],
+    "table_of_contents": null,
+    "text": null,
+    "title": "Site",
+    "type_title": "Sitio Plone"
+}]
