@@ -12,34 +12,15 @@
     Better import explicit packages or configurations ;)
   -->
   <!--<includeDependencies package="." />-->
-
-  <include package=".browser" />
-
-  <include file="permissions.zcml" />
-
-  <genericsetup:registerProfile
-      name="default"
-      title="codesyntax.distributions"
-      directory="profiles/default"
-      description="Installs the codesyntax.distributions add-on."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.post_install"
-      />
-
-  <genericsetup:registerProfile
-      name="uninstall"
-      title="codesyntax.distributions (uninstall)"
-      directory="profiles/uninstall"
-      description="Uninstalls the codesyntax.distributions add-on."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.uninstall"
-      />
-
-  <utility
-      factory=".setuphandlers.HiddenProfiles"
-      name="codesyntax.distributions-hiddenprofiles"
-      />
+  <include package="plone.distribution" />
 
   <!-- -*- extra stuff goes here -*- -->
+    <plone:distribution
+      name="multilingual"
+      title="Multilingual site"
+      description="A Plone site already configured to be multilingual."
+      directory="distributions/multilingual"
+      post_handler=".handlers.multilingual.post_handler"
+      />
 
 </configure>

@@ -1,0 +1,14 @@
+{
+  "base": [
+    "plone.app.contenttypes:default",
+    "plone.app.caching:default",
+    "plonetheme.barceloneta:default",
+    "plone.app.multilingual:default",
+    "codesyntax.login:default",
+    "collective.folderishtypes.dx:default",
+    "collective.behavior.seo:default"
+  ],
+  "content": [
+
+  ]
+}
