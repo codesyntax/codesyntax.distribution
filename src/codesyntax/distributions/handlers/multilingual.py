@@ -31,9 +31,7 @@ def post_handler(distribution: Distribution, site, answers: dict):
     content_types = ["News Item", "Event", "Document", "Collection"]
     for content_type in content_types:
         request = getRequest()
-        context = queryMultiAdapter(
-            (site, request), name="dexterity-types"
-        )
+        context = queryMultiAdapter((site, request), name="dexterity-types")
         context = context.publishTraverse(request, content_type)
 
         behaviors = queryMultiAdapter((context, getRequest()), name="behaviors")
